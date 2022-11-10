@@ -19,7 +19,7 @@ main {
 .header {
     display: flex;
     flex-direction: row;
-    margin: 18px 120px;
+    margin: 18px;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,4 +56,68 @@ button {
     line-height: 22px;
     font-weight: 600;
     text-transform: uppercase;
+}
+hr {
+    height: 1px;
+}
+
+section {
+    width: 1440px;
+    height: 833px;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.section__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    width: 570px;
+    height: 140px;
+    margin: 150px 435px 60px 435px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+
+.section__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+}
+
+img:not(.header__logo) {
+    margin-bottom: 20px;
+}
+
+.cards__text p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #282528;
 }
