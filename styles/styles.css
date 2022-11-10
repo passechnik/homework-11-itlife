@@ -121,3 +121,51 @@ h4 {
     line-height: 22px;
     color: #282528;
 }
+
+.footer {
+    margin: 40px 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    width: 250px;
+    height: 42px;
+}
+
+.footer__social a {
+    margin: 0;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 1px solid #18B5DC;
+}
+
+.fa {
+    color: #18B5DC;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
